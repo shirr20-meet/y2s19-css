@@ -1,9 +1,24 @@
 
 body {
 	background-image: url("alice-backround.gif");
-	
+	background-repeat: no-repeat; 
+	background-size: 100%;
+}
+
 h1 {
-	color: yellow ;
-	text-align: center;
+	color: white;
 	
+	 font-family: Georgia;
+	 font-size: 30px; 
+	 position: absolute;
+	 top: 30%;
+	 left: 25%;
+
 }	
+.things{
+	color: white;
+	font-style: italic;
+	font-size: 20px;
+	position: absolute;
+	
+	}
