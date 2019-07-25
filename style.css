@@ -1,27 +1,37 @@
 
 body {
-	background-image: url("alice-backround.gif");
+	background-image: url("wonderland2.jpg");
 	background-repeat: no-repeat; 
-	background-size: 100%;
+	background-size: cover;
+
 }
 
 h1 {
-	color: white;
 	
-	 font-family: Amatic SC ;
-	 font-size: 30px; 
+	 font-family: Karumbi ;
+	 font-size: 100px; 
+	 color:#ffd699;
 	 position: absolute;
-	 top: 35%;
-	 left: 27%;
-	 border:3px solid white;
-	 padding: 10px;
+	 left: 35%;
+	 
+}
+	
 
-}	
+h2 {
+	font-family: Karumbi ;
+	 font-size: 100px; 
+	 color:#ffd699;
+	 position: absolute;
+	 left: 30%;
+	 top: 10%;
+}
+
 .things{
-	font-family: Permanent Marker ;
-	color: white;
+	font-family: Karumbi ;
+	font-weight: bold;
+	color: #e6ac00;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 55px;
 	
 
 }
@@ -31,16 +41,41 @@ h1 {
 	top: 50%;
 }
 #special{
-	font-family: Pinyon Script ;
-	color: white;
-	font-size: 30px;
-
-	margin: 10px;
+	font-family: Karumbi ;
+	color: #e6ac00;
+	font-size: 55px;
+	font-weight: bold;
+	
 }
  .sidebar{
- 	color:#ccffcc ;
- 	font-size: 30px;
+ 	font-family: Karumbi ;
+ 	color:#e6ac00 ;
+ 	font-size: 70px;
  	position: absolute;
- 	top: 50%;
- 	left:80%;
+ 	top: 55%;
+ 	left:60%;
+ 	font-style: italic;
+ 	font-weight: bold;
  }
+
+#inside{
+	position: absolute;
+	left: 50%
+}
+
+.banner{
+	height: 80px; 
+	width:400px;
+	background-color:#e6ac00;
+	position: absolute;
+	top: 75%;
+	left: 65%;
+}
+#bannertext{
+	font-family: Karumbi ;
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	top: 72%;
+	
+}
